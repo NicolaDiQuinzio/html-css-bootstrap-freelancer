@@ -77,56 +77,209 @@
         </div>
       </section>
       <!-- portfolio -->
-      <section id="portfolio ">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 m-1">
-          <div class="col">
-            <div class="card">
-              <img src="./img/cabin.png" class="card-img-top" alt="cabin" />
-            </div>
+      <section id="portfolio " class="mb-3">
+        <div class="container-xl m-10">
+          <h1 class="text-uppercase pt-3 pb-1 text-center">PORTFOLIO</h1>
+          <div class="row align-items-center justify-content-center pb-2">
+            <div class="col-3"><hr /></div>
+            <div class="col-1"><i class="fa-solid fa-star"></i></div>
+            <div class="col-3"><hr /></div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="./img/cake.png" class="card-img-top" alt="cake" />
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 m-1">
+            <div class="col">
+              <div class="card img-container">
+                <img src="./img/cabin.png" class="card-img-top" alt="cabin" />
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="./img/circus.png" class="card-img-top" alt="circus" />
+            <div class="col">
+              <div class="card img-container">
+                <img src="./img/cake.png" class="card-img-top" alt="cake" />
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="./img/game.png" class="card-img-top" alt="game" />
+            <div class="col">
+              <div class="card img-container">
+                <img src="./img/circus.png" class="card-img-top" alt="circus" />
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="./img/safe.png" class="card-img-top" alt="safe" />
+            <div class="col">
+              <div class="card img-container">
+                <img src="./img/game.png" class="card-img-top" alt="game" />
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./img/submarine.png"
-                class="card-img-top"
-                alt="submarine"
-              />
+            <div class="col">
+              <div class="card img-container">
+                <img src="./img/safe.png" class="card-img-top" alt="safe" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card img-container">
+                <img
+                  src="./img/submarine.png"
+                  class="card-img-top"
+                  alt="submarine"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- about -->
-      <section id="about"></section>
+      <section id="about">
+        <h1 class="text-uppercase pt-3 pb-1 text-center text-white">
+          ABOUT US
+        </h1>
+        <div
+          class="row align-items-center justify-content-center pb-2 text-white"
+        >
+          <div class="col-3 text-white"><hr /></div>
+          <div class="col-1 text-white"><i class="fa-solid fa-star"></i></div>
+          <div class="col-3 text-white"><hr /></div>
+          <div class="col-12 col-md-6">
+            <p class="fs-6 text-left p-3">
+              Freelancer is a free bootstrap theme created by Start Bootstrap.
+              The download includes the complete source files including HTML,
+              CSS and Javascript as well optional LESS stylesheets for easy
+              customization.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <p class="fs-6 text-left p-3">
+              Whether you're a student looking to showcase your work, or a
+              graphic artist looking to share your project, this template is the
+              perfect starting point!
+            </p>
+          </div>
+        </div>
+      </section>
       <!-- contact-us -->
-      <section id="contact-us"></section>
+      <section id="contact-us">
+        <h1 class="text-uppercase pt-3 pb-1 text-center">CONTACT US</h1>
+        <div class="row align-items-center justify-content-center pb-2">
+          <div class="col-3"><hr /></div>
+          <div class="col-1"><i class="fa-solid fa-star"></i></div>
+          <div class="col-3"><hr /></div>
+        </div>
+        <form class="m-5">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control border-top-0 border-bottom"
+              id="user-name"
+              name="user-name"
+              required
+              placeholder="Name"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control border-top-0 border-bottom"
+              id="user-email"
+              name="user-email"
+              required
+              placeholder="Email"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control border-top-0 border-bottom"
+              id="user-phone"
+              name="user-phone"
+              required
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              name="message"
+              id="message"
+              cols="10"
+              rows="10"
+              class="form-control border-top-0 border-bottom"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </section>
     </main>
     <!-- footer -->
     <footer>
       <!-- top-footer -->
-      <section id="top-footer"></section>
+      <section id="top-footer" class="text-white">
+        <div class="container">
+          <div class="row justify-content-center pt-4 pb-4">
+            <div class="col-md-8">
+              <div class="row justify-content-center pt-3 pb-2">
+                <div class="col-md-4 text-center">
+                  <h4 class="fs-6">LOCATION</h4>
+                  <p class="fw-semibold">
+                    2215 John Daniel Drive Clark, MO 54243
+                  </p>
+                </div>
+                <div class="col-md-4 text-center mt-5">
+                  <h4 class="fs-6">AROUND THE WEB</h4>
+                  <div class="row">
+                    <div class="col-3">
+                      <button
+                        type="button"
+                        class="btn btn-outline-light rounded-circle btngray"
+                      >
+                        <i class="fab fa-facebook-f"></i>
+                      </button>
+                    </div>
+                    <div class="col-3">
+                      <button
+                        type="button"
+                        class="btn btn-outline-light rounded-circle btngray"
+                      >
+                        <i class="fab fa-google-plus-g"></i>
+                      </button>
+                    </div>
+                    <div class="col-3">
+                      <button
+                        type="button"
+                        class="btn btn-outline-light rounded-circle btngray"
+                      >
+                        <i class="fab fa-twitter"></i>
+                      </button>
+                    </div>
+                    <div class="col-3">
+                      <button
+                        type="button"
+                        class="btn btn-outline-light rounded-circle btngray"
+                      >
+                        <i class="fab fa-linkedin-in"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 text-center mt-5">
+                  <h4 class="fs-6">ABOUT FREELENCER</h4>
+                  <p class="fw-semibold">
+                    Freelance is a free to use, open source Bootstrap theme
+                    created by
+                    <span class="textaqua">Start Bootstrap</span>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- bottom-footer -->
-      <section id="bottom-footer"></section>
+      <section id="bottom-footer">
+        <div class="row justify-content-center">
+          <div class="col text-center text-white">
+            <p class="pt-3 pb-3 fs-10">
+              Copyright <i class="fa-regular fa-copyright"></i> Your Website
+              2023
+            </p>
+          </div>
+        </div>
+      </section>
     </footer>
 
     <!-- bootstrap script -->
